@@ -13,13 +13,13 @@ My first custom cron-daemon pair without using java.util.concurrent to execute j
 - метод не имеет выходных параметров
 
 2. Сборка и запуск приложений.
-2.1. Распаковываем скачанные архивы
-2.2. Переименовываем полученные корневые папки в Cron и daemon соответственно 
-2.3. Из папки Cron (аналогично для daemon) запускаем команду mvn clean install
-2.4. Переходим на уровень выше командой cd target
-2.5.1. Для Cron выполняем кодманду:
+- распаковываем скачанные архивы
+- переименовываем полученные корневые папки в Cron и daemon соответственно 
+- из папки Cron (аналогично для daemon) запускаем команду mvn clean install
+- переходим на уровень выше командой cd target
+- для Cron выполняем кодманду:
 java -jar Cron-1.0-SNAPSHOT.jar
-2.5.2. Для daemon выполняем кодманду:
+- для daemon выполняем кодманду:
 java -jar daemon-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 3. Проверка работы приложения.
